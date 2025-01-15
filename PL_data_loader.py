@@ -14,7 +14,7 @@ file_id_dic = {'FaceMaskDetection':'16Gzn1w38yZLJpzmzKcRIRveFeHZtCEr7',
               'NLP-QG':'1QccVdDR5ebpPV8tLA7XkY6JmUjM1TYsw'}
 
 def download_file_from_google_drive(id_, destination):
-    url = f'https://drive.google.com/uc?id={id_}'
+    url = f'https://drive.google.com/file/d/1jcbrA3NieuLQVksQu9kVDxHD4lfkfx52/view?usp=drive_link'
     output = destination
     gdown.download(url, output, quiet=False)
     print(f'{output} download complete!')
